@@ -11,7 +11,7 @@ body{
   text-align: center;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-
+ 
   
    
    
@@ -54,3 +54,22 @@ img{
   border-bottom-left-radius: 5px;
 
 }
+
+
+
+  @keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(100);
+    }
+}
+
+
+.div , .wajdan {
+    animation: slideIn 3s ease forwards;
+
+}
+
+
